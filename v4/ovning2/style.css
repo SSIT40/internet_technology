@@ -1,0 +1,45 @@
+body
+{
+    background-color: gray;
+}
+
+.body
+{
+    padding: 20ps;
+}
+
+
+.ros
+{
+    margin: 5px;
+    width: 100px;
+    height: 70px;
+    border-style: solid;
+    padding: 5px;
+    float: left;
+}
+.tred
+{
+    margin: 5px;
+    width: 100px;
+    height: 70px;
+    border-style: solid;
+    padding: 5px;
+    float: left;
+}
+.katt
+{
+    margin: 5px;
+    width: 100px;
+    height: 70px;
+    border-style: solid;
+    padding: 5px;
+    float: left;
+}
+
+
+.card
+{
+    font: bold;
+    font-size: 20px;
+}

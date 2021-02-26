@@ -1,0 +1,75 @@
+body
+{
+    background-color: gray;
+}
+
+.input
+{
+    margin: 5px;
+    width: 575px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+
+}
+
+.reg
+{
+    color: white;
+    background-color: blue;
+    border: 2px;
+    border: white;
+}
+
+.regnr
+{
+    width: 75px;
+}
+
+.color
+{
+    width: 75px;
+}
+
+
+.redvolvo
+{
+    margin: 5px;
+    width: 125px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    float: left;
+}
+.redother
+{
+    margin: 5px;
+    width: 125px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    float: left;
+}
+.othervolvo
+{
+    margin: 5px;
+    width: 125px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    float: left;
+}
+.otherother
+{
+    margin: 5px;
+    width: 125px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    float: left;
+}
+
+.carh
+{
+    font-weight: bold;
+}

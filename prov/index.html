@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Tent</title>
+</head>
+<body>
+    <h1> Registrering av bilar</h1>
+
+    <div class="input">
+
+        <div class="regnr">
+            <label for="regnr">Registernummer </label><br>
+            <input type="text" name="text" id="regnr">
+        </div>
+
+        <br>
+
+        <div class="brand">
+            <label for="text">Märke: </label><br>
+            <input type="radio" name="brand" id="volvo">
+            <label for="brand">volvo</label><br>
+            <input type="radio" name="brand" id="other">
+            <label for="brand">Annat märke:</label><br>
+            <input type="text" name="text" id="brand">
+
+            <!--    Här ska läggas till en text box för att specifiera annat märke-->
+        </div>
+
+        <br>
+
+        <div class="dropdown">
+            <label for="text">Färg: </label><br>
+    
+            <select id="color">
+                <option value="red">Röd</option>
+                <option value="blue">Blå</option>
+                <option value="green">Grön</option>
+                <option value="yellow">Gul</option>
+                <option value="white">Vit</option>
+                <option value="other">Annan</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <button class="reg" id="reg">Registrera bil</button>
+        </div>
+
+    </div>
+
+    <p>Registrerade bilar</p>
+
+    <div class="regcar">
+
+        <div class="redvolvo" id="redvolvo">
+            <p class="carh">Röda Volvon:</p>
+            <div id="rv">
+
+            </div>
+
+        </div>
+
+        <div class="redother" id="redother">
+            <p class="carh">Andra röda bilar:</p>
+            <div id="ro">
+
+            </div>
+        </div>
+
+        <div class="othervolvo" id="othervolvo">
+            <p class="carh">Andra volvon:</p>
+            <div id="ov">
+
+            </div>
+        </div>
+
+        <div class="otherother" id="otherother">
+            <p class="carh">Andra bilar:</p>
+            <div id="oo">
+
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    
+    <div class="procent">
+        <p>procentuella andrelen volvon:</p>
+    </div>
+
+    
+</body>
+</html>

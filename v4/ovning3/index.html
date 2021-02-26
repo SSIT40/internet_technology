@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="body">
+
+        <h1>Gym kort</h1>
+
+        
+        <div class="input">
+                <label for="text">Gym Kort: </label>
+                <input type="text" name="text" id="text">
+        </div>
+
+        <div class="dropdown">
+            <label for="text">Rabatter: </label>
+
+            <select id="color">
+                <option value="0,25">Studerande</option>
+                <option value="0.30">Pensionärer</option>
+                <option value="0.50">Barn</option>
+            </select>
+        </div>
+
+    
+
+    
+        <p>Kortets bild:</p>
+        <div>
+
+            <div class="ros">
+                <input type="radio" name="picture" id="rose">
+                <label for="picture" >
+                    <img src="blomma.jpg"alt="Ros" style="width: 80px;">
+                </label>
+            </div>  
+
+            <div class="tred">
+                <input type="radio" name="picture" id="tree">
+                <label for="picture" >
+                    <img src="landskap.jpg"alt="Träd" style="width: 80px">
+                </label>
+            </div>
+
+            <div class="katt">
+                <input type="radio" name="picture" id="cat">
+                <label for="picture" >
+                    <img src="djur.jpg"alt="katt" style="width: 80px">
+                </label>
+            </div>
+
+        </div>
+            
+        <br><br><br><br><br><br>
+
+        <div>
+            <button class="print" id="print" onclick="printFunction()">Skriv ut</button>
+        </div>
+
+        <br><br><br>
+
+
+
+
+        <div id="card" class="card">
+
+        </div>
+            
+    </div>
+</body>
+</html>
